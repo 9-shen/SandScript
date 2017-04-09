@@ -1,0 +1,48 @@
+@media screen and (max-width:768px) {
+
+  .container {
+
+    max-width: 100%;
+
+    overflow-x: hidden;
+
+      height: 100%;
+
+  }
+form, .container {
+
+  min-height: 600px;
+  overflow: hidden;
+
+}
+
+
+.card.alt .toggle:before {
+
+position:relative;
+top:-13px;
+
+
+}
+
+.card.alt .toggle {
+left:-25px;
+height:110px;
+width:110px;
+}
+
+
+}
+
+@media screen and (max-width:450px) {
+
+.card.alt .title .close {
+
+top:-12px;
+right:10px;
+
+}
+
+
+
+}
